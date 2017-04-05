@@ -95,9 +95,9 @@ class Crawler extends EventEmitter{
   }
 }
 
-const ev = new Crawler()
+const cw = new Crawler()
 
-ev.init()
+cw.init()
   .then(a => console.log(a))
   .then(b => console.log(b))
   .catch(e => console.error(e))
