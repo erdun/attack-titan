@@ -1,0 +1,49 @@
+{
+  "name": "crawler",
+  "version": "0.0.1",
+  "description": "xian scaffold",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "eventproxy": "^0.3.5",
+    "express": "^4.15.2",
+    "superagent": "^3.5.2",
+    "underscore": "^1.8.3",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.24.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.22.0",
+    "babelify": "^7.3.0",
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-config-google": "^0.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^3.0.2",
+    "eslint-plugin-react": "^6.9.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "buildB": "npm run build && node .testing/buildBrowser.js",
+    "clean": "rm -rf lib/browser",
+    "test": "mocha",
+    "dev": "nodemon bin/www.js",
+    "start": "node bin/www.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "xian62"
+  ],
+  "author": "xian62 group",
+  "license": "ISC",
+  "homepage": "https://github.com/xian62/blog/issues"
+}
