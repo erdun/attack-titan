@@ -2,7 +2,6 @@ import fs from 'fs'
 import { EventEmitter } from 'events'
 import url from 'url'
 
-import express from 'express'
 import superagent from 'superagent'
 import cheerio from 'cheerio'
 import eventproxy from 'eventproxy'
@@ -33,6 +32,8 @@ class Crawler extends EventEmitter{
           .get(config.url)
           .end((err, res) => {
             if (err) rj(err)
+            if (!res.text) rj('prohibit by the website or get nothing')
+
             const $ = cheerio.load(res.text)
 
             const cities = [];
