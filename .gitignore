@@ -23,4 +23,4 @@ Thumbs.db
 *.ruby-version
 node_modules
 
-data/*
+data
