@@ -1,3 +1,4 @@
 export default {
-	url: 'http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201703/t20170310_1471429.html'
+	enter: 'http://www.comicbus.com/7340.html',
+	chapterRoot: 'http://v.comicbus.com/online',
 }

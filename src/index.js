@@ -1,1 +1,2 @@
-import './crawler.js'
+import './crawler'
+import './queen'
