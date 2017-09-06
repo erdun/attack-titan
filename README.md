@@ -1,3 +1,6 @@
-# crawler
+# crawler attach titan
 
-爬取项目需要地址相关县市的json文件
+If you are fan of Attack titan like, clone and run
+```
+yarn; yarn start
+```
