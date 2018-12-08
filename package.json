@@ -6,10 +6,10 @@
   "dependencies": {
     "cheerio": "^0.22.0",
     "eventproxy": "^0.3.5",
-    "express": "^4.15.2",
+    "express": "^4.16.0",
     "nightmare": "^2.10.0",
     "shelljs": "^0.7.8",
-    "superagent": "^3.5.2",
+    "superagent": "^3.8.1",
     "underscore": "^1.8.3",
     "url": "^0.11.0"
   },
